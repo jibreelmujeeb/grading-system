@@ -1,0 +1,95 @@
+body{
+  background-image: url(image/secondsm1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.div{
+    border: 2px solid rgb(156, 199, 206);
+    border-radius: 10px;
+    width: 330px;
+    height: 330px;
+    background-image: url(image/secondsm2.svg);
+    margin: auto;
+}
+.marquee{
+    text-align: center;
+    color: rgb(25, 73, 185);
+    font-size: 40px;
+    font-style: italic;
+}
+.inpt{
+    padding: 10px 30px;
+    border: none;
+    margin-left: 50px;
+    margin-top: 25px;
+    border-radius: 5px;
+    background-color: cornsilk;
+}
+
+::placeholder{
+    text-align: center;
+    color: brown;
+    font-size: 18px;
+}
+
+.inpt:hover{
+    background-color: burlywood;
+}
+
+.inpt:focus{
+    border: 2px dashed red;
+    outline: none;
+}
+
+button{
+    padding: 10px 30px;
+    border: none;
+    margin-left: 110px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: rgb(25, 73, 185);;
+}
+
+button:hover{
+    background-color: lightskyblue;
+    color: coral;
+}
+button:focus{
+    border: 2px solid lightcoral;
+}
+
+.answer{
+    background-color: darkgray;
+    width: 125px;
+    height: 20px;
+    margin:10px auto 0px auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: floralwhite;
+    text-align: center;
+}
+
+.image{
+    width: 120px;
+    height: 120px;
+    margin-left: 110px;
+    padding-top: 20px;
+}
+
+
+@media screen and (max-width:480px) {
+    .marquee{
+        font-size: 25px;
+        padding-top: 10px;
+        font-weight: 40px;
+    }
+    .div{
+        margin-bottom: 40px;
+    }
+}
+
+   
