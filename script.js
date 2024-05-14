@@ -43,5 +43,6 @@ function gradeChecker(value) {
    console.log("invalid");
    Result.innerHTML = "invalid"
 }
+inp.value = ""
 
 }
